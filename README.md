@@ -36,8 +36,8 @@ conda install conda-forge::transformers
 pip install torch-scatter==2.1.2 torch-geometric==2.6.1
 ```
 
-The downstream baselines use additional third-party code: [TwiBot-22](https://github.com/LuoUndergradX/TwiBot-22),
-[MT-CSD](https://arxiv.org/abs/2403.11145), and the RumourEval 2019 baseline. See their own READMEs
+The downstream baselines use additional third-party code: TwiBot-22,
+MT-CSD, and the RumourEval 2019 baseline. See their own READMEs
 under `downstreamtask/`.
 
 ## Data Preparation
