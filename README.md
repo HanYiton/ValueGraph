@@ -1,8 +1,14 @@
-# ValueGraph: Value-Signal Guided Graph Pre-training for Contextualized User Representation
+# <img src="assets\signals.png" width="40"> VAA-CSEC: Vote-guided Advantage Allocation for Chinese Semantic Error Correction
 
-Yitong Han¹, Wei Gao¹, Yi Zhao¹, Prasanta Bhattacharya², Fengzhu Zeng¹, Mohammad Amanlou¹
 
-¹ [Affiliation] · ² [Affiliation]
+<p align="center">
+  <b>Yitong Han<sup>1</sup>, Wei Gao<sup>1</sup>, Yi Zhao<sup>1</sup>, Prasanta Bhattacharya<sup>2</sup>, Fengzhu Zeng<sup>1</sup>, Mohammad Amanlou<sup>1</sup></b>
+</p>
+
+<p align="center">
+  <sup>1</sup>School of Computing and Information Systems, Singapore Management University, Singapore<br>
+  <sup>2</sup>Institute of Advanced Intelligence and Computing, A*STAR, Singapore
+</p>
 
 This is the repository of **ValueGraph**, a two-stage graph pre-training framework for
 social-media user representation learning.
@@ -104,18 +110,3 @@ python p-value/train.py
 ```
 
 ## Citation
-
-If you use this code in your research, please cite our paper.
-
-```bibtex
-@inproceedings{han2027valuegraph,
-  title     = {ValueGraph: Value-Signal Guided Graph Pre-training for Contextualized User Representation},
-  author    = {Yitong Han and Wei Gao and Yi Zhao and Prasanta Bhattacharya and Fengzhu Zeng and Mohammad Amanlou},
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  year      = {2027}
-}
-```
-
-## Contact for issues
-
-- Yitong Han, [email]
