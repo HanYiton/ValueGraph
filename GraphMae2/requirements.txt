@@ -1,0 +1,13 @@
+pyyaml
+tqdm
+tensorboardX
+scikit-learn
+ogb
+sentence-transformers
+wandb
+torchdata==0.9.0
+matplotlib
+
+# conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 pytorch-cuda=12.4 -c pytorch -c nvidia
+# conda install dglteam/label/th24_cu124::dgl
+# conda install conda-forge::transformers
