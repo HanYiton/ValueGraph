@@ -1,5 +1,4 @@
-# <img src="assets\signals.png" width="40"> VAA-CSEC: Vote-guided Advantage Allocation for Chinese Semantic Error Correction
-
+# <img src="assets\signals.png" width="40"> ValueGraph: Value-Signal Guided Graph Pre-training for Contextualized User Representation
 
 <p align="center">
   <b>Yitong Han<sup>1</sup>, Wei Gao<sup>1</sup>, Yi Zhao<sup>1</sup>, Prasanta Bhattacharya<sup>2</sup>, Fengzhu Zeng<sup>1</sup>, Mohammad Amanlou<sup>1</sup></b>
@@ -10,16 +9,11 @@
   <sup>2</sup>Institute of Advanced Intelligence and Computing, A*STAR, Singapore
 </p>
 
-This is the repository of **ValueGraph**, a two-stage graph pre-training framework for
-social-media user representation learning.
+ **ValueGraph** is a graph pre-training framework that uses automatically inferred moral-value signals as noisy auxiliary signals for contextualized user representation. From post-reply graphs, ValueGraph learns semantic and structural representations and further aligns users through relative value similarity with contrastive and clustering objectives. Rather than treating inferred values as gold psychological labels, ValueGraph uses them as soft constraints for representation learning. 
+
+Experiments on stance detection and twitter bot detection show consistent gains over strong text-based, graph-based, and text-only LLM baselines, highlighting value-signal guidance as a useful inductive bias for socially informed user modeling.
 
 ![Framework](assets/framework.png)
-
-- ValueGraph first pre-trains a [GraphMAE2](https://arxiv.org/abs/2304.04779)-style masked
-  autoencoder on a Twitter/X + Reddit post-reply graph, then fine-tunes the encoder with
-  user-level contrastive and clustering objectives so that posts of the same user are pulled
-  together while similar and dissimilar users are separated. The learned embeddings are evaluated
-  on bot detection (TwiBot-22) and stance detection (MT-CSD / RumourEval).
 
 ## Requirements
 
