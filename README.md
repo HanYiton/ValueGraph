@@ -104,3 +104,18 @@ python p-value/train.py
 ```
 
 ## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@misc{han2026valuegraph,
+  title        = {ValueGraph: Value-Signal Guided Graph Pre-training for Contextualized User Representation},
+  author       = {Han, Yitong and Gao, Wei and Zhao, Yi and Bhattacharya, Prasanta and Zeng, Fengzhu and Amanlou, Mohammad},
+  year         = {2026},
+  eprint       = {2609.00057},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  url          = {https://arxiv.org/abs/2609.00057}
+}
+```
+
